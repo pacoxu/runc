@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
 )
 
 var (

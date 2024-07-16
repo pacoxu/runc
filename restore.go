@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/userns"
+	"github.com/pacoxu/runc/libcontainer"
+	"github.com/pacoxu/runc/libcontainer/userns"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

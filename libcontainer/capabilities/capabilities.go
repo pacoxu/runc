@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/configs"
 	"github.com/sirupsen/logrus"
 	"github.com/syndtr/gocapability/capability"
 )

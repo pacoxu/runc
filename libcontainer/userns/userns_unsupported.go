@@ -3,7 +3,7 @@
 
 package userns
 
-import "github.com/opencontainers/runc/libcontainer/user"
+import "github.com/pacoxu/runc/libcontainer/user"
 
 // runningInUserNS is a stub for non-Linux systems
 // Always returns false

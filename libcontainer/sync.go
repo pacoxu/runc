@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/pacoxu/runc/libcontainer/utils"
 )
 
 type syncType string

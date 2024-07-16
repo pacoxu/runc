@@ -3,9 +3,9 @@ package fs2
 import (
 	"strconv"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/cgroups/fscommon"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/cgroups/fscommon"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 func isHugeTlbSet(r *configs.Resources) bool {

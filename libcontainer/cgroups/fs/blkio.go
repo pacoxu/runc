@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 type BlkioGroup struct {
@@ -212,40 +212,40 @@ func (s *BlkioGroup) GetStats(path string, stats *cgroups.Stats) error {
 			blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
 		},
 	}
-	cfqStats := []blkioStatInfo{
-		{
-			filename:            "blkio.sectors_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.SectorsRecursive,
-		},
-		{
-			filename:            "blkio.io_service_time_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoServiceTimeRecursive,
-		},
-		{
-			filename:            "blkio.io_wait_time_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoWaitTimeRecursive,
-		},
-		{
-			filename:            "blkio.io_merged_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoMergedRecursive,
-		},
-		{
-			filename:            "blkio.io_queued_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoQueuedRecursive,
-		},
-		{
-			filename:            "blkio.time_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoTimeRecursive,
-		},
-		{
-			filename:            "blkio.io_serviced_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoServicedRecursive,
-		},
-		{
-			filename:            "blkio.io_service_bytes_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
-		},
-	}
+	// cfqStats := []blkioStatInfo{
+	// 	{
+	// 		filename:            "blkio.sectors_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.SectorsRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_service_time_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServiceTimeRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_wait_time_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoWaitTimeRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_merged_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoMergedRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_queued_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoQueuedRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.time_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoTimeRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_serviced_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServicedRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.io_service_bytes_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
+	// 	},
+	// }
 	throttleRecursiveStats := []blkioStatInfo{
 		{
 			filename:            "blkio.throttle.io_serviced_recursive",
@@ -269,7 +269,7 @@ func (s *BlkioGroup) GetStats(path string, stats *cgroups.Stats) error {
 	orderedStats := [][]blkioStatInfo{
 		bfqDebugStats,
 		bfqStats,
-		cfqStats,
+		// cfqStats,
 		throttleRecursiveStats,
 		baseStats,
 	}

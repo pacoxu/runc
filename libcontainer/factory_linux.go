@@ -14,11 +14,11 @@ import (
 	"github.com/moby/sys/mountinfo"
 	"golang.org/x/sys/unix"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups/manager"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/configs/validate"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/pacoxu/runc/libcontainer/cgroups/manager"
+	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/configs/validate"
+	"github.com/pacoxu/runc/libcontainer/intelrdt"
+	"github.com/pacoxu/runc/libcontainer/utils"
 	"github.com/sirupsen/logrus"
 )
 

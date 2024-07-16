@@ -1,4 +1,4 @@
-module github.com/opencontainers/runc
+module github.com/pacoxu/runc
 
 go 1.16
 

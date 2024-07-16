@@ -17,9 +17,9 @@ import (
 	dbus "github.com/godbus/dbus/v5"
 	"github.com/sirupsen/logrus"
 
-	cgroupdevices "github.com/opencontainers/runc/libcontainer/cgroups/devices"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/devices"
+	cgroupdevices "github.com/pacoxu/runc/libcontainer/cgroups/devices"
+	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/devices"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"strconv"
 
 	criu "github.com/checkpoint-restore/go-criu/v5/rpc"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/userns"
+	"github.com/pacoxu/runc/libcontainer"
+	"github.com/pacoxu/runc/libcontainer/userns"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"

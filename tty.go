@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/containerd/console"
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/pacoxu/runc/libcontainer"
+	"github.com/pacoxu/runc/libcontainer/utils"
 )
 
 type tty struct {

@@ -7,12 +7,12 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
 	"github.com/sirupsen/logrus"
 
 	"github.com/docker/go-units"
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/intelrdt"
+	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/intelrdt"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/urfave/cli"
 )

@@ -4,9 +4,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/opencontainers/runc/libcontainer"
-	"github.com/opencontainers/runc/libcontainer/system"
-	"github.com/opencontainers/runc/libcontainer/utils"
+	"github.com/pacoxu/runc/libcontainer"
+	"github.com/pacoxu/runc/libcontainer/system"
+	"github.com/pacoxu/runc/libcontainer/utils"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"

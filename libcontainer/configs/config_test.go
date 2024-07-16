@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/configs"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

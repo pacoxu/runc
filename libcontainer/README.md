@@ -25,7 +25,7 @@ In addition to the go init function the early stage bootstrap is handled by impo
 
 ```go
 import (
-	_ "github.com/opencontainers/runc/libcontainer/nsenter"
+	_ "github.com/pacoxu/runc/libcontainer/nsenter"
 )
 
 func init() {

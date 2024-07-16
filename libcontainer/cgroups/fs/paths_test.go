@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 func TestInvalidCgroupPath(t *testing.T) {

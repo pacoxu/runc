@@ -1,7 +1,7 @@
 package cgroups
 
 import (
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 type Manager interface {

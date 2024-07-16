@@ -3,7 +3,7 @@ package userns
 import (
 	"sync"
 
-	"github.com/opencontainers/runc/libcontainer/user"
+	"github.com/pacoxu/runc/libcontainer/user"
 )
 
 var (

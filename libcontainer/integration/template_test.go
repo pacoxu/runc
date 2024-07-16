@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
-	"github.com/opencontainers/runc/libcontainer/devices"
-	"github.com/opencontainers/runc/libcontainer/specconv"
+	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/devices"
+	"github.com/pacoxu/runc/libcontainer/specconv"
 	"golang.org/x/sys/unix"
 )
 

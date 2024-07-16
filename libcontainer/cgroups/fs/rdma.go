@@ -1,9 +1,9 @@
 package fs
 
 import (
-	"github.com/opencontainers/runc/libcontainer/cgroups"
-	"github.com/opencontainers/runc/libcontainer/cgroups/fscommon"
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/cgroups"
+	"github.com/pacoxu/runc/libcontainer/cgroups/fscommon"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 type RdmaGroup struct{}

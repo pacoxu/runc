@@ -6,7 +6,7 @@ package seccomp
 import (
 	"errors"
 
-	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/pacoxu/runc/libcontainer/configs"
 )
 
 var ErrSeccompNotEnabled = errors.New("seccomp: config provided but seccomp not supported")
