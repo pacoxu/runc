@@ -1,4 +1,4 @@
-module github.com/pacoxu/runc
+module github.com/opencontainers/runc
 
 go 1.16
 
@@ -24,3 +24,4 @@ require (
 	golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c
 	google.golang.org/protobuf v1.27.1
 )
+

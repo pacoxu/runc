@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/pacoxu/runc/libcontainer"
-	"github.com/pacoxu/runc/libcontainer/cgroups"
-	"github.com/pacoxu/runc/libcontainer/cgroups/systemd"
-	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
+	"github.com/opencontainers/runc/libcontainer/configs"
 	"github.com/opencontainers/runtime-spec/specs-go"
 
 	"golang.org/x/sys/unix"

@@ -6,7 +6,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/configs"
 )
 
 var errInvalidProcess = errors.New("invalid process")

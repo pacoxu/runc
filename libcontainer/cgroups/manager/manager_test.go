@@ -3,7 +3,7 @@ package manager
 import (
 	"testing"
 
-	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/configs"
 )
 
 // TestNilResources checks that a cgroup manager do not panic when

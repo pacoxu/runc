@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	dbus "github.com/godbus/dbus/v5"
-	"github.com/pacoxu/runc/libcontainer/configs"
-	"github.com/pacoxu/runc/libcontainer/configs/validate"
-	"github.com/pacoxu/runc/libcontainer/devices"
+	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/configs/validate"
+	"github.com/opencontainers/runc/libcontainer/devices"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/sys/unix"
 )

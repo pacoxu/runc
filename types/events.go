@@ -1,6 +1,6 @@
 package types
 
-import "github.com/pacoxu/runc/libcontainer/intelrdt"
+import "github.com/opencontainers/runc/libcontainer/intelrdt"
 
 // Event struct for encoding the event data to json.
 type Event struct {

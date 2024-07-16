@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer/utils"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pacoxu/runc/libcontainer/user"
+	"github.com/opencontainers/runc/libcontainer/user"
 )
 
 func TestUIDMapInUserNS(t *testing.T) {

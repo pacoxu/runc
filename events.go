@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pacoxu/runc/libcontainer"
-	"github.com/pacoxu/runc/libcontainer/cgroups"
-	"github.com/pacoxu/runc/libcontainer/intelrdt"
-	"github.com/pacoxu/runc/types"
+	"github.com/opencontainers/runc/libcontainer"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/opencontainers/runc/libcontainer/intelrdt"
+	"github.com/opencontainers/runc/types"
 
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"

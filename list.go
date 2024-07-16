@@ -10,9 +10,9 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/pacoxu/runc/libcontainer"
-	"github.com/pacoxu/runc/libcontainer/user"
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer"
+	"github.com/opencontainers/runc/libcontainer/user"
+	"github.com/opencontainers/runc/libcontainer/utils"
 	"github.com/urfave/cli"
 )
 

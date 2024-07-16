@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/pacoxu/runc/libcontainer/cgroups/systemd"
-	"github.com/pacoxu/runc/libcontainer/userns"
+	"github.com/opencontainers/runc/libcontainer/cgroups/systemd"
+	"github.com/opencontainers/runc/libcontainer/userns"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

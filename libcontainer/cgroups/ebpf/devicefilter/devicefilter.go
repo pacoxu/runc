@@ -13,8 +13,8 @@ import (
 	"strconv"
 
 	"github.com/cilium/ebpf/asm"
-	devicesemulator "github.com/pacoxu/runc/libcontainer/cgroups/devices"
-	"github.com/pacoxu/runc/libcontainer/devices"
+	devicesemulator "github.com/opencontainers/runc/libcontainer/cgroups/devices"
+	"github.com/opencontainers/runc/libcontainer/devices"
 	"golang.org/x/sys/unix"
 )
 

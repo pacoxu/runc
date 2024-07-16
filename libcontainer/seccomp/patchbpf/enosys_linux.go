@@ -18,8 +18,8 @@ import (
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 
-	"github.com/pacoxu/runc/libcontainer/configs"
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/utils"
 )
 
 // #cgo pkg-config: libseccomp

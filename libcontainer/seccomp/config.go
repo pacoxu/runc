@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/pacoxu/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/configs"
 )
 
 var operators = map[string]configs.Operator{

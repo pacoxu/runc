@@ -26,7 +26,7 @@ import (
 	"sync"
 
 	"github.com/containerd/console"
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer/utils"
 	"github.com/urfave/cli"
 )
 

@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/pacoxu/runc/libcontainer/cgroups"
-	"github.com/pacoxu/runc/libcontainer/configs"
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/utils"
 )
 
 // The absolute path to the root of the cgroup hierarchies.

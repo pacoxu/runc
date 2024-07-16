@@ -3,7 +3,7 @@ package fs
 import (
 	"fmt"
 
-	"github.com/pacoxu/runc/libcontainer/cgroups/fscommon"
+	"github.com/opencontainers/runc/libcontainer/cgroups/fscommon"
 )
 
 type parseError = fscommon.ParseError

@@ -17,12 +17,12 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/pacoxu/runc/libcontainer/capabilities"
-	"github.com/pacoxu/runc/libcontainer/cgroups"
-	"github.com/pacoxu/runc/libcontainer/configs"
-	"github.com/pacoxu/runc/libcontainer/system"
-	"github.com/pacoxu/runc/libcontainer/user"
-	"github.com/pacoxu/runc/libcontainer/utils"
+	"github.com/opencontainers/runc/libcontainer/capabilities"
+	"github.com/opencontainers/runc/libcontainer/cgroups"
+	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/opencontainers/runc/libcontainer/system"
+	"github.com/opencontainers/runc/libcontainer/user"
+	"github.com/opencontainers/runc/libcontainer/utils"
 )
 
 type initType string

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pacoxu/runc/libcontainer"
+	"github.com/opencontainers/runc/libcontainer"
 	"golang.org/x/sys/unix"
 )
 
