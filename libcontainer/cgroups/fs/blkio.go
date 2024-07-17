@@ -9,6 +9,7 @@ import (
 
 	"github.com/opencontainers/runc/libcontainer/cgroups"
 	"github.com/opencontainers/runc/libcontainer/configs"
+	"github.com/sirupsen/logrus"
 )
 
 type BlkioGroup struct {
@@ -246,16 +247,16 @@ func (s *BlkioGroup) GetStats(path string, stats *cgroups.Stats) error {
 	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
 	// 	},
 	// }
-	throttleRecursiveStats := []blkioStatInfo{
-		{
-			filename:            "blkio.throttle.io_serviced_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoServicedRecursive,
-		},
-		{
-			filename:            "blkio.throttle.io_service_bytes_recursive",
-			blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
-		},
-	}
+	// throttleRecursiveStats := []blkioStatInfo{
+	// 	{
+	// 		filename:            "blkio.throttle.io_serviced_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServicedRecursive,
+	// 	},
+	// 	{
+	// 		filename:            "blkio.throttle.io_service_bytes_recursive",
+	// 		blkioStatEntriesPtr: &stats.BlkioStats.IoServiceBytesRecursive,
+	// 	},
+	// }
 	baseStats := []blkioStatInfo{
 		{
 			filename:            "blkio.throttle.io_serviced",
@@ -270,12 +271,14 @@ func (s *BlkioGroup) GetStats(path string, stats *cgroups.Stats) error {
 		bfqDebugStats,
 		bfqStats,
 		// cfqStats,
-		throttleRecursiveStats,
+		// throttleRecursiveStats,
 		baseStats,
 	}
 
 	var blkioStats []cgroups.BlkioStatEntry
 	var err error
+
+	logrus.Warn("blkio: check ordered stats")
 
 	for _, statGroup := range orderedStats {
 		for i, statInfo := range statGroup {
